@@ -17,12 +17,12 @@
          <font>
             <Font name="Book Antiqua" size="13.0" />
          </font></Button>
-      <Button layoutX="405.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnbatch" prefHeight="35.0" prefWidth="244.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="Grade Management">
+      <Button layoutX="405.0" layoutY="286.0" mnemonicParsing="false" onAction="#btngrade" prefHeight="35.0" prefWidth="244.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="Grade Management">
          <font>
             <Font name="Book Antiqua" size="13.0" />
          </font>
       </Button>
-      <Button layoutX="405.0" layoutY="357.0" mnemonicParsing="false" onAction="#btnbatch" prefHeight="35.0" prefWidth="244.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="Report Genarater">
+      <Button layoutX="405.0" layoutY="357.0" mnemonicParsing="false" onAction="#btnreport" prefHeight="35.0" prefWidth="244.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="Report Management">
          <font>
             <Font name="Book Antiqua" size="13.0" />
          </font>

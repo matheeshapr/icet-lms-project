@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.GradeManagementController">
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #354f52;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.GradeManagementController">
     <children>
-        <Button layoutX="402.0" layoutY="116.0" mnemonicParsing="false" onAction="#btnprfup" prefHeight="42.0" prefWidth="239.0" text="PRF Marks Update" />
-        <Button layoutX="402.0" layoutY="194.0" mnemonicParsing="false" onAction="#btndbmsup" prefHeight="42.0" prefWidth="239.0" text="DBMS Marks Update" />
+        <Pane layoutX="384.0" layoutY="134.0" prefHeight="195.0" prefWidth="275.0" style="-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0.5, 0, 2); -fx-background-color: #52796f; -fx-background-radius: 10;">
+            <children>
+                <Button layoutX="18.0" layoutY="108.0" mnemonicParsing="false" onAction="#btndbmsmarks" prefHeight="42.0" prefWidth="239.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="DBMS Marks Update">
+                    <font>
+                        <Font name="Book Antiqua" size="13.0" />
+                    </font>
+                </Button>
+                <Button layoutX="18.0" layoutY="31.0" mnemonicParsing="false" onAction="#btnprfmarks" prefHeight="42.0" prefWidth="239.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="PRF Marks Update">
+                    <font>
+                        <Font name="Book Antiqua" size="13.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+        <Pane prefHeight="50.0" prefWidth="700.0" style="-fx-background-color: #2f3e46;">
+            <children>
+                <Label layoutX="24.0" layoutY="6.0" prefHeight="38.0" prefWidth="81.0" text="ICET" textFill="WHITE">
+                    <font>
+                        <Font name="Bodoni MT" size="30.0" />
+                    </font>
+                </Label>
+                <Label layoutX="435.0" layoutY="9.0" text="Grade Managment" textFill="WHITE">
+                    <font>
+                        <Font name="Bernard MT Condensed" size="26.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
     </children>
-
 </AnchorPane>
