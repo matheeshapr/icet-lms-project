@@ -10,17 +10,17 @@
     <children>
         <Pane layoutX="384.0" layoutY="134.0" prefHeight="299.0" prefWidth="275.0" style="-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0.5, 0, 2); -fx-background-color: #52796f; -fx-background-radius: 10;">
             <children>
-                <Button layoutX="18.0" layoutY="185.0" mnemonicParsing="false" onAction="#btnindtrain" prefHeight="42.0" prefWidth="239.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="Industry Training Eligibility Report ">
+                <Button layoutX="18.0" layoutY="32.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="239.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="Student Registration Report ">
                     <font>
                         <Font name="Book Antiqua" size="13.0" />
                     </font>
                 </Button>
-                <Button layoutX="18.0" layoutY="108.0" mnemonicParsing="false" onAction="#btnbatchwise" prefHeight="42.0" prefWidth="239.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="Batch-wise Student Report">
+                <Button layoutX="18.0" layoutY="108.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="239.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="Batch-wise Student Report">
                     <font>
                         <Font name="Book Antiqua" size="13.0" />
                     </font>
                 </Button>
-                <Button layoutX="18.0" layoutY="31.0" mnemonicParsing="false" onAction="#btnstureg" prefHeight="42.0" prefWidth="239.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="Student Registration Report ">
+                <Button layoutX="18.0" layoutY="188.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="239.0" style="-fx-background-color: #cad2c5; -fx-background-radius: 10;" text="Industry Training Eligibility Report ">
                     <font>
                         <Font name="Book Antiqua" size="13.0" />
                     </font>
