@@ -29,7 +29,7 @@
                         <Font name="Bodoni MT" size="30.0" />
                     </font>
                 </Label>
-                <Label layoutX="435.0" layoutY="9.0" text="Grade Managment" textFill="WHITE">
+                                <Label layoutX="435.0" layoutY="9.0" text="Grade Management" textFill="WHITE">
                     <font>
                         <Font name="Bernard MT Condensed" size="26.0" />
                     </font>

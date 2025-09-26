@@ -34,7 +34,7 @@
                   <Font name="Bodoni MT" size="30.0" />
                </font>
             </Label>
-            <Label layoutX="377.0" layoutY="9.0" text="Learning Managment System" textFill="WHITE">
+                        <Label layoutX="377.0" layoutY="9.0" text="Learning Management System" textFill="WHITE">
                <font>
                   <Font name="Bernard MT Condensed" size="26.0" />
                </font>
