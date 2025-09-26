@@ -1,4 +1,4 @@
-package Controller;
+package Controller.Homepage;
 
 import javafx.event.ActionEvent;
 

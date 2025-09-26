@@ -12,7 +12,7 @@ public class LoginPageController {
     public void btnlogin(ActionEvent actionEvent) {
 
         try {
-            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/student_page.fxml"))));
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/home_page.fxml"))));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
